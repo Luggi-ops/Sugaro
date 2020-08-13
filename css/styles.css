@@ -147,7 +147,7 @@ img{
 /**Inolvidable**/
 
 .fondo-inolvidable{
-    background-color: #919faf;;
+    background-color: #919faf;
     background-attachment: fixed;
 }
 
@@ -224,7 +224,7 @@ img{
 .contenido-footer{
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 
 .elemento-footer{
