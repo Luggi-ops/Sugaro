@@ -50,6 +50,7 @@ img{
 
 /**Header**/
 
+
 .fondo-header{
     background: url(../img/home-header.png);
     background-position: 40% 70%;
@@ -58,6 +59,7 @@ img{
     background-attachment: fixed;
     height: 100vh;
     padding: 5rem;
+
 }
 
 .contenido-header{
@@ -73,6 +75,7 @@ img{
 }
 .logo img{
     width: 13.5rem;
+    text-align: center;
 }
 
 
@@ -224,7 +227,7 @@ img{
 .contenido-footer{
     display: flex;
     justify-content: space-between;
-    align-items: start;
+    align-items: flex-start;
 }
 
 .elemento-footer{
