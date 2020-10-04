@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Donut Express Corporativo</title>
+
+    <!-- CSS de Bootstrap -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <!--CSS Mis estilos -->
+    <link rel="stylesheet" href="css/style.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600&family=Red+Hat+Display:wght@400;500&display=swap&family=Great+Vibes&display=swap"" rel="
+        stylesheet">
+</head>
+
+<body>
+    <header class="fixed-top">
+        <nav class="navbar navbar-expand-lg navbar-light bg-light p-3">
+            <div class="header-logo mr-5">
+                <a href="index.html">Donut Express</a>
+            </div>
+
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item"><a href="index.html" class="nav-link">Inicio</a></li>
+                    <li class="nav-item"><a href="index.html#carta" class="nav-link">Nuestra carta</a></li>
+                    <li class="nav-item"><a href="corporativos.html" class="nav-link">Servicios Corporativos</a></li>
+                    <li class="nav-item"><a href="index.html#contacto" class="nav-link">Contacto</a></li>
+                </ul>
+                <div class="carrito">
+                    <a href="#">
+                        <img src="img/carrito.png" alt="compra-dona"><img src="img/carrito-2.png" alt="compra-cafe">
+                    </a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="seccion-superior-corporativo">
+            <div class="imagen-corporativo"></div>
+            <h2>Donut Express Corporativo</h2>
+        </div>
+
+        <div class="corporativo-text">
+            <h3>Catering y Coffe Breaks de calidad</h3>
+            <p>Con ese cariño y pasión que nos identifica, preparamos el coffe break de tus reuniones y eventos con la más alta calidad en el mercado.</p>
+            <p>Llena el formulario y nos pondremos en contacto a la brevedad: </p>
+        </div>
+
+        <form action="" class="corporativo-form">
+            <label for="razon-social">Razón Social</label>
+            <input type="text" placeholder="Tu empresa" id="razon-social">
+
+            <label for="cuit">CUIT</label>
+            <input type="number" placeholder="30-000000-0" id="cuit">
+
+            <label for="nombre">Nombre</label>
+            <input type="text" placeholder="Carlos" id="nombre">
+
+            <label for="apellido">Apellido</label>
+            <input type="text" placeholder="Perez" id="apellido">
+
+            <label for="tel">CUIT</label>
+            <input type="tel" placeholder="351-4000000" id="tel">
+
+            <textarea name="" id="" cols="30" rows="10" placeholder="Detalle los requerimientos"></textarea>
+            <button class="boton boton-corporativo" type="submit">Enviar</button>
+        </form>
+    </main>
+
+    <footer class="footer">
+        <div class="contenedor">
+            <a href="#"><img src="img/face.png" alt="Logo acebook" class="facebook"></a>
+            <a href="#"><img src="img/twit.png" alt="Logo twitter" class="twitter"></a>
+            <a href="#"><img src="img/insta.png" alt="Logo instagram" class="instagram"></a>
+        </div>
+
+        <div class="desarrollador">
+            <p>&copy;2020 desarrollado por Luis Gudiño Dufour</p>
+            <ul>
+                <li><a href="https://github.com/Luggi-ops" target="_blank"><img src="img/Luis Gudiño/github.png" alt="github"></a></li>
+                <li><a href="https://www.linkedin.com/in/luis-gudi%C3%B1o-dufour-896892168/" target="_blank"><img src="img/Luis Gudiño/linkedin.png" alt=""></a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <!-- JS de Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
